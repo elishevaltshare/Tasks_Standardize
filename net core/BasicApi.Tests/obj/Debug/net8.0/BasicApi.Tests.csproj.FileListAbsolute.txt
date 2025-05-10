@@ -1,7 +1,0 @@
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\bin\Debug\net8.0\CoverletSourceRootsMapping_BasicApi.Tests
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\obj\Debug\net8.0\BasicApi.Tests.csproj.AssemblyReference.cache
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\obj\Debug\net8.0\BasicApi.Tests.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\obj\Debug\net8.0\BasicApi.Tests.AssemblyInfoInputs.cache
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\obj\Debug\net8.0\BasicApi.Tests.AssemblyInfo.cs
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\obj\Debug\net8.0\BasicApi.Tests.csproj.CoreCompileInputs.cache
-C:\Users\ElishevaGrinfeld\OneDrive - altshare\מסמכים\altshare\test\Altshare.devops.utils\templates\task\net core\BasicApi.Tests\obj\Debug\net8.0\BasicApi.Tests.sourcelink.json
