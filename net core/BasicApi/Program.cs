@@ -19,19 +19,22 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.MapGet("/HelloWorld", () =>
+app.MapGet("/", () =>
 {
     var dbConnection = Environment.GetEnvironmentVariable("DB_CONNECTION");
-    return SayHello(dbConnection);
+    return Logic.GetHelloMessage(dbConnection);
 })
-.WithName("GetHelloWorld")
+.WithName("GetHelloMessage")
 .WithOpenApi();
 
 app.Run();
 
-string SayHello(string? dbConnection)
+public static class Logic
 {
-    return string.IsNullOrEmpty(dbConnection)
-          ? "almost there, secret: DB_CONNECTION is not set"
-          : $"hello word - {dbConnection}";
+    public static string GetHelloMessage(string? dbConnection)
+    {
+        //if (string.IsNullOrEmpty(dbConnection))
+        //    return "almost there, secret: DB_CONNECTION is not set";
+        return $"hello word - {dbConnection}";
+    }
 }
