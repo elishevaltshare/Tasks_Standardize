@@ -34,8 +34,8 @@ public static class Logic
 {
     public static string GetHelloMessage(string? dbConnection)
     {
-        //if (string.IsNullOrEmpty(dbConnection))
-        //    return "almost there, secret: DB_CONNECTION is not set";
+        if (string.IsNullOrEmpty(dbConnection))
+            return "almost there, secret: DB_CONNECTION is not set";
         return $"hello word - {dbConnection}";
     }
 }

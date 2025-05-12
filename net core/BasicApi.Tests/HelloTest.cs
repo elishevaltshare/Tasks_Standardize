@@ -10,8 +10,7 @@ public class HelloTests : IClassFixture<WebApplicationFactory<Program>>
 {
     [Fact]
     public void GetMessage_WithValidConnectionString_ReturnsMessageWithConnection()
-    {
-        // Arrange
+    {   
         string dbConnection = "Server=myServer;Database=myDb;";
         // Act
         var result = Logic.GetHelloMessage(dbConnection);
@@ -20,23 +19,20 @@ public class HelloTests : IClassFixture<WebApplicationFactory<Program>>
     }
     [Fact]
     public void GetMessage_WithNullConnectionString_ReturnsMessageWithNull()
-    {
-        // Arrange
+    {   
         string? dbConnection = null;
         // Act
         var result = Logic.GetHelloMessage(dbConnection);
         // Assert
-        Assert.Equal("hello word - ", result);
+        Assert.Equal($"almost there, secret: DB_CONNECTION is not set", result);
     }
     [Fact]
     public void GetMessage_WithEmptyConnectionString_ReturnsMessageWithEmpty()
     {
-        //test my tests ----------
-        // Arrange
         string dbConnection = "";
         // Act
         var result = Logic.GetHelloMessage(dbConnection);
         // Assert
-        Assert.Equal("hello word - ", result);
+        Assert.Equal($"almost there, secret: DB_CONNECTION is not set", result);
     }
 }
